@@ -1,6 +1,6 @@
 <?php
-require_once 'models/Question.php';
-require_once 'models/UserProgress.php';
+require_once __DIR__ . '/../models/Question.php';
+require_once __DIR__ . '/../models/UserProgress.php';
 
 class TrainingController {
     private $questionModel;
@@ -23,7 +23,7 @@ class TrainingController {
 
         $question = $questions[$current - 1];
         $progress = $this->progressModel->getProgress($_SESSION['user_id'], $question['id']);
-        require 'views/training/index.php';
+        require  __DIR__ . '/../views/training/index.php';
     }
 }
 ?>

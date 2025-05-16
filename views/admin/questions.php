@@ -1,4 +1,4 @@
-<?php require 'views/layouts/header.php'; ?>
+<?php require __DIR__ . '/../layouts/header.php'; ?>
 <div class="container mt-5">
     <h2>Manage Questions</h2>
     <a href="?controller=admin&action=create" class="btn btn-primary mb-3">Add New Question</a>
@@ -24,4 +24,4 @@
         </tbody>
     </table>
 </div>
-<?php require 'views/layouts/footer.php'; ?>
+<?php require __DIR__ . '/../layouts/footer.php'; ?>

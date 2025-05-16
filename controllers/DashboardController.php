@@ -1,6 +1,6 @@
 <?php
-require_once 'models/UserProgress.php';
-require_once 'models/ExamHistory.php';
+require_once __DIR__ . '/../models/UserProgress.php';
+require_once __DIR__ . '/../models/ExamHistory.php';
 
 class DashboardController {
     private $progressModel;

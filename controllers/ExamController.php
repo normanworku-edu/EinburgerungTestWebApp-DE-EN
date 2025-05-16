@@ -1,7 +1,7 @@
 <?php
-require_once 'models/Question.php';
-require_once 'models/ExamHistory.php';
-require_once 'models/UserAnswer.php';
+require_once __DIR__ . '/../models/Question.php';
+require_once __DIR__ . '/../models/ExamHistory.php';
+require_once __DIR__ . '/../models/UserAnswer.php';
 
 class ExamController {
     private $questionModel;
